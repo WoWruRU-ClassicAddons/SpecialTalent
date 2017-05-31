@@ -12,6 +12,23 @@ ACTIVE_PLAYER = "Active Player";
 LOAD_TALENTS_DATA = "Compile Talents Data";
 
 
+-- Russian Translation by Maus - valkyrie-wow.ru
+
+if ( GetLocale() == "ruRU" ) then
+	SPECIAL_TALENT = "Особые таланты";
+	TALENT_POINTS = "Очки талантов";
+	UNSPENT_POINTS = "Неизрасход. очки";
+	TALENTS_LEARNED = "Изучить";
+	TALENTS_PLANNED = "План";
+	SHIFT_CLICK_LEARN_TALENT = "Shift+клик для изучения";
+	RESET_PLANNED_TEMPLATE = "Сбросить шаблон";
+	PLANNED_RANK = "Уровень %d/%d - планируемый";
+	LEARNED_RANK = "Уровень %d/%d - изучаемый";
+	ALTS_TALENTS = "Таланты Альтов";
+	ACTIVE_PLAYER = "Активный игрок";
+	LOAD_TALENTS_DATA = "Компиляция данных талантов";
+end
+
 -- French Translation by Malkom and Aquendyn
 
 if ( GetLocale() == "frFR" ) then
